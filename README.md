@@ -20,7 +20,13 @@ NOTE: After these commands is recommended to reboot your PC. <br> <br>
 There is a disk image file called TDBD2_WSL.tar that contains the installation of Xampp + phpmyadmin + WordPress installation, <br> which allows to use on localhost server WordPress and phpmyadmin.
 <p>To download Image follow this link: https://drive.google.com/file/d/1QzS6KLciguk0ib4wMO7e_SHYh5Gn32XF/view?usp=drive_link</p>
 
-For Image import guide read this file located on: <strong>assets/setup.conf</strong>
+Guide to import Image onto WSL: <strong>assets/setup.conf</strong>
+
+On the WSL prompt:
+```bash
+sudo /opt/lampp/lampp start
+cd opt/lampp/htdocs/sgbd/custom/php
+```
 
 ### Preview of a few components
 
