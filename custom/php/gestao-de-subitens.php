@@ -1,6 +1,7 @@
 <?php
 
 #! Author: Bjorn
+# Subitems Management - 80% completed
 
 require_once("custom/php/common.php");
 $link = connection();
