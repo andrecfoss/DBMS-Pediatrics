@@ -1,6 +1,7 @@
 <?php
 
 #! Author: Bjorn
+# Items Management - 95% completed
 
 require_once("custom/php/common.php");
 $link = connection();
