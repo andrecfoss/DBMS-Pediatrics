@@ -5,6 +5,8 @@ $link = connection();
 styling();	//CSS
 
 #! Author: Bjorn
+# Import Values - 20% completed
+# Missing the PHP SpreadSheet Functionalities
 
 $report_errors = mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
